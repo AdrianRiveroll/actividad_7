@@ -9,7 +9,7 @@
 <body class="bg">
 <div class="card">
   <h1>Panel Admin</h1>
-  <p class="muted">Inicia sesión para administrar productos y ventas.</p>
+  <p class="muted">Inicia sesion para administrar productos y ventas.</p>
 
   <form th:action="@{/login}" method="post" class="form">
     <!-- CSRF -->
@@ -25,11 +25,11 @@
   </form>
 
   <div class="hint">
-    <span th:if="${param.error}">❌ Credenciales inválidas.</span>
-    <span th:if="${param.logout}">✅ Sesión cerrada.</span>
+    <span th:if="${param.error}">Credenciales invalidas.</span>
+    <span th:if="${param.logout}">Sesion cerrada.</span>
   </div>
 
-  <!-- Acceso cliente / portal -->
+
   <div style="margin-top:14px; display:flex; gap:10px; justify-content:center;">
     <a class="btnGhost" href="/client/login" style="text-align:center;">Entrar como Cliente</a>
     <a class="btnGhost" href="/" style="text-align:center;">Volver al Portal</a>

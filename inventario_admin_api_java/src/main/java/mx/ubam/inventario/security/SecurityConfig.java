@@ -114,7 +114,7 @@ public class SecurityConfig {
         return http.build();
     }
 
-    
+
     @Bean
     @Order(4)
     public SecurityFilterChain otherChain(HttpSecurity http) throws Exception {
