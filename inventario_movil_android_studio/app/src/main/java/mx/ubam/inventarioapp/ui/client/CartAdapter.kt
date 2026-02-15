@@ -37,7 +37,7 @@ class CartAdapter(
             b.tvName.text = "${p.name} (${p.brand})"
             b.tvQty.text = qty.toString()
 
-            // ✅ subtotal
+
             val price = p.price ?: 0.0
             val subtotal = price * qty
             b.tvSubtotal.text = "Subtotal: ${"%.2f".format(subtotal)}"
@@ -45,7 +45,7 @@ class CartAdapter(
             b.btnPlus.setOnClickListener { onPlus(p.id) }
             b.btnMinus.setOnClickListener { onMinus(p.id) }
 
-            // ✅ eliminar del carrito
+           
             b.btnRemove.setOnClickListener { onRemove(p.id) }
         }
     }
