@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portal</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body class="bg">
+<div class="card" style="max-width:520px;">
+  <h1>Portal de acceso</h1>
+  <p class="muted">Elige cómo quieres entrar.</p>
+
+  <div style="display:flex; gap:12px; margin-top:16px;">
+    <a class="btnGhost" href="/login" style="flex:1; text-align:center;">Administrador</a>
+    <a class="btnGhost" href="/client/login" style="flex:1; text-align:center;">Cliente</a>
+  </div>
+
+  <div style="margin-top:16px;" class="muted">
+    <small>Admin: admin / admin123</small><br/>
+    <small>Cliente: client / client123</small>
+  </div>
+</div>
+</body>
+</html>

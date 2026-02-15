@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nueva venta</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+  <script>
+    function addRow(){
+      const tpl = document.getElementById('rowTpl');
+      document.getElementById('itemsBody').appendChild(tpl.content.cloneNode(true));
+    }
+    function removeRow(btn){ btn.closest('tr').remove(); }
+    window.addEventListener('DOMContentLoaded', ()=> addRow());
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div th:replace="admin/_nav :: nav"></div>
+
+    <div class="panel">
+      <h1>Registrar venta</h1>
+      <p class="error" th:if="${error}" th:text="${error}"></p>
+
+      <form method="post" action="/admin/sales/new">
+        <label>Nombre del cliente</label>
+        <input name="customerName" placeholder="Ej. Juan Pérez"/>
+
+        <div class="row" style="justify-content: space-between; align-items:center;">
+          <h2 style="margin: 14px 0;">Productos</h2>
+          <button type="button" class="btnGhost" onclick="addRow()">+ Agregar</button>
+        </div>
+
+        <div class="tableWrap">
+          <table>
+            <thead><tr><th>Producto</th><th>Cantidad</th><th></th></tr></thead>
+            <tbody id="itemsBody"></tbody>
+          </table>
+        </div>
+
+        <button type="submit">Guardar venta</button>
+      </form>
+    </div>
+  </div>
+
+  <template id="rowTpl">
+    <tr>
+      <td>
+        <select name="productId" required>
+          <option value="" disabled selected>Selecciona...</option>
+          <option th:each="p: ${products}" th:value="${p.id}" th:text="${p.name + ' - ' + p.brand + ' (stock: ' + p.stock + ')'}"></option>
+        </select>
+      </td>
+      <td><input name="quantity" type="number" min="1" value="1" required/></td>
+      <td><button type="button" class="btnDanger" onclick="removeRow(this)">Quitar</button></td>
+    </tr>
+  </template>
+</body>
+</html>

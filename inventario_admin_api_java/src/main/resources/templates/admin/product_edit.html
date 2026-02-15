@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editar producto</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+  <div class="container">
+    <div th:replace="admin/_nav :: nav"></div>
+
+    <div class="panel">
+      <h1>Editar producto</h1>
+      <form class="form" th:action="@{'/admin/products/' + ${p.id} + '/edit'}" method="post">
+        <label>Nombre</label><input name="name" th:value="${p.name}" required />
+        <label>Marca</label><input name="brand" th:value="${p.brand}" required />
+        <label>Capacidad</label><input name="storageCapacity" th:value="${p.storageCapacity}" required />
+        <label>Stock</label><input name="stock" type="number" min="0" th:value="${p.stock}" required />
+        <label>Precio</label><input name="price" type="number" step="0.01" min="0" th:value="${p.price}" required />
+        <div class="row">
+          <button type="submit">Guardar</button>
+          <a class="btnGhost" href="/admin/products">Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

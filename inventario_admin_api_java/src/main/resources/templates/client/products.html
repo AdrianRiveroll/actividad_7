@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cliente - Productos</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<div class="container">
+    <div th:replace="client/_nav :: nav"></div>
+
+    <header class="header">
+        <h1>Catálogo</h1>
+        <form class="search" method="get" action="/client/products">
+            <input name="q" th:value="${q}" placeholder="Buscar por nombre o marca...">
+            <button type="submit">Buscar</button>
+        </form>
+        <a class="btnGhost" href="/client/cart">🛒 Carrito</a>
+    </header>
+
+    <div class="panel">
+        <div class="tableWrap">
+            <table>
+                <thead>
+                <tr><th>ID</th><th>Producto</th><th>Marca</th><th>Cap.</th><th>Stock</th><th>Precio</th><th>Comprar</th></tr>
+                </thead>
+                <tbody>
+                <tr th:each="p : ${products}">
+                    <td th:text="${p.id}"></td>
+                    <td th:text="${p.name}"></td>
+                    <td th:text="${p.brand}"></td>
+                    <td th:text="${p.storageCapacity}"></td>
+                    <td th:text="${p.stock}"></td>
+                    <td th:text="${p.price}"></td>
+                    <td>
+                        <form method="post" action="/client/cart/add" class="row">
+                            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                            <input type="hidden" name="productId" th:value="${p.id}">
+                            <input name="quantity" type="number" min="1" value="1" style="width:90px;">
+                            <button type="submit">Agregar</button>
+                        </form>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cliente - Detalle compra</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<div class="container">
+  <div th:replace="client/_nav :: nav"></div>
+
+  <div class="panel">
+    <h1>Compra #<span th:text="${sale.id}"></span></h1>
+    <p class="muted">
+      <strong>Fecha:</strong> <span th:text="${sale.createdAt}"></span> |
+      <strong>Total:</strong> <span th:text="${sale.total}"></span>
+    </p>
+
+    <div class="tableWrap">
+      <table>
+        <thead><tr><th>Producto</th><th>Marca</th><th>Cant.</th><th>Precio</th><th>Total</th></tr></thead>
+        <tbody>
+        <tr th:each="it : ${sale.items}">
+          <td th:text="${it.product.name}"></td>
+          <td th:text="${it.product.brand}"></td>
+          <td th:text="${it.quantity}"></td>
+          <td th:text="${it.unitPrice}"></td>
+          <td th:text="${it.lineTotal}"></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <a class="btnGhost" href="/client/orders">Volver</a>
+  </div>
+</div>
+</body>
+</html>

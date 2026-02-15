@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ventas</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+  <div class="container">
+    <div th:replace="admin/_nav :: nav"></div>
+
+    <header class="header">
+      <h1>Ventas</h1>
+      <a class="btnGhost" href="/admin/sales/new">+ Registrar venta</a>
+    </header>
+    <div class="panel">
+      <div class="tableWrap">
+        <table>
+          <thead><tr><th>ID</th><th>Fecha</th><th>Cliente</th><th>Total</th><th></th></tr></thead>
+          <tbody>
+            <tr th:each="s : ${sales}">
+              <td th:text="${s.id}"></td>
+              <td th:text="${s.createdAt}"></td>
+              <td th:text="${s.customerName}"></td>
+              <td th:text="${s.total}"></td>
+              <td><a class="btnGhost" th:href="@{'/admin/sales/' + ${s.id}}">Ver</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
