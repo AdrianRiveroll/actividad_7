@@ -21,7 +21,6 @@ SET time_zone = "+00:00";
 -- Base de datos: `inventario_db`
 --
 
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `products`
