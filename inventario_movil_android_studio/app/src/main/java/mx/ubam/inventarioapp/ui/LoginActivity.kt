@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
 
         prefs = Prefs(this)
 
-        // ✅ Si ya hay sesión guardada, manda por role guardado
+
         val token = prefs.getToken()
         val role = prefs.getRole()
         if (!token.isNullOrBlank() && !role.isNullOrBlank()) {
@@ -35,10 +35,10 @@ class LoginActivity : AppCompatActivity() {
             return
         }
 
-        // ✅ Defaults (Cliente)
+
         setRoleDefaults(isAdmin = false)
 
-        // ✅ Cambiar defaults al tocar radio
+
         b.rgRole.setOnCheckedChangeListener { _, checkedId ->
             val isAdmin = checkedId == b.rbAdmin.id
             setRoleDefaults(isAdmin)
@@ -80,16 +80,14 @@ class LoginActivity : AppCompatActivity() {
                 val resp = api.login(LoginRequest(user, pass))
                 val token = resp.token ?: throw IllegalStateException("El backend no devolvió token.")
 
-                // ✅ Si tu backend manda role, se usa.
-                // ✅ Si no manda role, lo intentamos sacar del token.
-                // ✅ Pero la navegación la haremos según el RADIO seleccionado (lo que tú quieres).
+
                 val roleFromBackendOrJwt = resp.role ?: JwtUtils.roleFromToken(token)
 
                 prefs.saveToken(token)
                 prefs.saveUsername(user)
                 prefs.saveRole(roleFromBackendOrJwt)
 
-                // ✅ Navegación según selección en el login
+
                 val intent = if (isAdminSelected) {
                     Intent(this@LoginActivity, AdminDashboardActivity::class.java)
                 } else {
