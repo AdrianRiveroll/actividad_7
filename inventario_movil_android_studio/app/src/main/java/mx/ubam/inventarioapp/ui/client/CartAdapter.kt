@@ -45,7 +45,7 @@ class CartAdapter(
             b.btnPlus.setOnClickListener { onPlus(p.id) }
             b.btnMinus.setOnClickListener { onMinus(p.id) }
 
-           
+
             b.btnRemove.setOnClickListener { onRemove(p.id) }
         }
     }

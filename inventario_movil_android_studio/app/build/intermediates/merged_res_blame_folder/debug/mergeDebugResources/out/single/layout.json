@@ -1,58 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_client_products.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_client_products.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_admin_sales.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/activity_admin_sales.xml"
     },
     {
         "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_login.xml",
         "source": "mx.ubam.inventarioapp-main-37:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_admin_dashboard.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_admin_dashboard.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_client_products.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/activity_client_products.xml"
     },
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_cart.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_cart.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_admin_dashboard.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/activity_admin_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_admin_sales.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_admin_sales.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/row_product.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/row_product.xml"
     },
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\dialog_product.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\dialog_product.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_sale_detail.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/activity_sale_detail.xml"
     },
     {
-        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/row_cart_item.xml",
-        "source": "mx.ubam.inventarioapp-main-37:/layout/row_cart_item.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_admin_products.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/activity_admin_products.xml"
     },
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\row_cart_item.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\row_cart_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_admin_products.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_admin_products.xml"
-    },
-    {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\row_product.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\row_product.xml"
-    },
-    {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\row_sale.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\row_sale.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/row_sale.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/row_sale.xml"
     },
     {
         "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/activity_cart.xml",
         "source": "mx.ubam.inventarioapp-main-37:/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-mergeDebugResources-34:\\layout\\activity_sale_detail.xml",
-        "source": "C:\\Users\\adria\\.gradle\\daemon\\8.7\\mx.ubam.inventarioapp-main-37:\\layout\\activity_sale_detail.xml"
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/dialog_product.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/dialog_product.xml"
+    },
+    {
+        "merged": "mx.ubam.inventarioapp-mergeDebugResources-34:/layout/row_cart_item.xml",
+        "source": "mx.ubam.inventarioapp-main-37:/layout/row_cart_item.xml"
     }
 ]

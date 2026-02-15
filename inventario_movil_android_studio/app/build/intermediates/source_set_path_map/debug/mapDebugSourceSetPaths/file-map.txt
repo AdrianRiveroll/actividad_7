@@ -29,10 +29,10 @@ mx.ubam.inventarioapp-lifecycle-livedata-ktx-2.8.4-27 C:\Users\adria\.gradle\cac
 mx.ubam.inventarioapp-appcompat-resources-1.7.0-28 C:\Users\adria\.gradle\caches\transforms-4\e97b8fec522e0237fe171c43b96f412b\transformed\appcompat-resources-1.7.0\res
 mx.ubam.inventarioapp-transition-1.5.0-29 C:\Users\adria\.gradle\caches\transforms-4\eb07a0b9af61cd6747df6be18d6086c6\transformed\transition-1.5.0\res
 mx.ubam.inventarioapp-core-ktx-1.13.1-30 C:\Users\adria\.gradle\caches\transforms-4\ee0481a11330c26fe06a00831ef0481b\transformed\core-ktx-1.13.1\res
-mx.ubam.inventarioapp-pngs-31 C:\Users\adria\Downloads\inventario_movil_android_studio\app\build\generated\res\pngs\debug
-mx.ubam.inventarioapp-resValues-32 C:\Users\adria\Downloads\inventario_movil_android_studio\app\build\generated\res\resValues\debug
-mx.ubam.inventarioapp-packageDebugResources-33 C:\Users\adria\Downloads\inventario_movil_android_studio\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-mx.ubam.inventarioapp-packageDebugResources-34 C:\Users\adria\Downloads\inventario_movil_android_studio\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-mx.ubam.inventarioapp-debug-35 C:\Users\adria\Downloads\inventario_movil_android_studio\app\build\intermediates\merged_res\debug\mergeDebugResources
-mx.ubam.inventarioapp-debug-36 C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\debug\res
-mx.ubam.inventarioapp-main-37 C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\res
+mx.ubam.inventarioapp-pngs-31 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\build\generated\res\pngs\debug
+mx.ubam.inventarioapp-resValues-32 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\build\generated\res\resValues\debug
+mx.ubam.inventarioapp-packageDebugResources-33 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+mx.ubam.inventarioapp-packageDebugResources-34 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+mx.ubam.inventarioapp-debug-35 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\build\intermediates\merged_res\debug\mergeDebugResources
+mx.ubam.inventarioapp-debug-36 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\debug\res
+mx.ubam.inventarioapp-main-37 C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\res

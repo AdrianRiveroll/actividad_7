@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:3:5-66
-11-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:3:22-64
+11-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:3:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.13.1] C:\Users\adria\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
@@ -24,55 +24,55 @@
 17-->[androidx.core:core:1.13.1] C:\Users\adria\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:5:5-30:19
+19-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:5:5-30:19
 20        android:allowBackup="true"
-20-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:6:9-35
+20-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.13.1] C:\Users\adria\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:label="InventarioMovil"
-24-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:7:9-40
+24-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:7:9-40
 25        android:networkSecurityConfig="@xml/network_security_config"
-25-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:10:9-69
+25-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:10:9-69
 26        android:supportsRtl="true"
-26-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:8:9-35
+26-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:8:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.InventarioMovil" >
-28-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:9:9-53
+28-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:9:9-53
 29        <activity android:name="mx.ubam.inventarioapp.ui.sales.SaleDetailActivity" />
-29-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:14:5-61
-29-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:14:15-58
+29-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:14:5-61
+29-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:14:15-58
 30        <activity android:name="mx.ubam.inventarioapp.ui.admin.AdminSalesActivity" />
-30-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:15:9-65
-30-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:15:19-62
+30-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:15:9-65
+30-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:15:19-62
 31        <activity android:name="mx.ubam.inventarioapp.ui.admin.AdminProductsActivity" />
-31-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:16:9-68
-31-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:16:19-65
+31-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:16:9-68
+31-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:16:19-65
 32        <activity android:name="mx.ubam.inventarioapp.ui.admin.AdminDashboardActivity" />
-32-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:17:9-69
-32-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:17:19-66
+32-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:17:9-69
+32-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:17:19-66
 33        <activity android:name="mx.ubam.inventarioapp.ui.client.CartActivity" />
-33-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:18:9-60
-33-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:18:19-57
+33-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:18:9-60
+33-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:18:19-57
 34        <activity android:name="mx.ubam.inventarioapp.ui.client.ClientProductsActivity" />
-34-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:19:9-70
-34-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:19:19-67
+34-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:19:9-70
+34-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:19:19-67
 35        <activity
-35-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:21:9-28:20
+35-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:21:9-28:20
 36            android:name="mx.ubam.inventarioapp.ui.LoginActivity"
-36-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:22:13-45
+36-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:22:13-45
 37            android:exported="true" >
-37-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:23:13-36
+37-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:23:13-36
 38            <intent-filter>
-38-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:24:13-27:29
+38-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:24:13-27:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:25:17-69
-39-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:25:25-66
+39-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:25:17-69
+39-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:25:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:26:17-77
-41-->C:\Users\adria\Downloads\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:26:27-74
+41-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:26:17-77
+41-->C:\Users\adria\Desktop\ACTIVIDAD7\actividad_7\inventario_movil_android_studio\app\src\main\AndroidManifest.xml:26:27-74
 42            </intent-filter>
 43        </activity>
 44

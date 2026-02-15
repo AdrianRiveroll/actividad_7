@@ -1,13 +1,13 @@
-#Sat Feb 14 23:48:35 CST 2026
-base.0=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.4=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.5=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.6=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.7=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.8=C\:\\Users\\adria\\Downloads\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Sun Feb 15 02:33:59 CST 2026
+base.0=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.5=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.6=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.7=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.8=C\:\\Users\\adria\\Desktop\\ACTIVIDAD7\\actividad_7\\inventario_movil_android_studio\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex
