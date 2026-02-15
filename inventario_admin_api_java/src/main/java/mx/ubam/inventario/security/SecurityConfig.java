@@ -36,14 +36,14 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
 
-                        // Auth público
+
                         .requestMatchers("/api/auth/**").permitAll()
 
-                        // ✅ Productos: ver productos (cliente/admin)
+
                         .requestMatchers(HttpMethod.GET, "/api/products/**")
                         .hasAnyRole("CLIENT", "ADMIN")
 
-                        // ✅ Productos: alta/editar/eliminar (solo admin)
+
                         .requestMatchers(HttpMethod.POST, "/api/products/**")
                         .hasRole("ADMIN")
                         .requestMatchers(HttpMethod.PUT, "/api/products/**")
@@ -53,15 +53,16 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.DELETE, "/api/products/**")
                         .hasRole("ADMIN")
 
-                        // ✅ Ventas: crear compra (cliente/admin)
+
                         .requestMatchers(HttpMethod.POST, "/api/sales/**")
                         .hasAnyRole("CLIENT", "ADMIN")
 
-                        // ✅ Ventas: consultar ventas (solo admin)
+
                         .requestMatchers(HttpMethod.GET, "/api/sales/**")
                         .hasRole("ADMIN")
 
-                        // Todo lo demás requiere estar autenticado con token
+
+
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
@@ -69,7 +70,7 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // 2) ADMIN (web)
+
     @Bean
     @Order(2)
     public SecurityFilterChain adminChain(HttpSecurity http) throws Exception {
@@ -91,7 +92,7 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // 3) CLIENT (web)
+
     @Bean
     @Order(3)
     public SecurityFilterChain clientChain(HttpSecurity http) throws Exception {
@@ -113,7 +114,7 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // 4) Fallback
+    
     @Bean
     @Order(4)
     public SecurityFilterChain otherChain(HttpSecurity http) throws Exception {

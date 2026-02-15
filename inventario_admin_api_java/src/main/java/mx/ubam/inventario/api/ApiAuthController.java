@@ -25,10 +25,10 @@ public class ApiAuthController {
     @PostMapping("/login")
     public AuthDtos.LoginResponse login(@RequestBody AuthDtos.LoginRequest req) {
         var user = userRepository.findByUsername(req.username())
-                .orElseThrow(() -> new RuntimeException("Credenciales inválidas"));
+                .orElseThrow(() -> new RuntimeException("Credenciales invalidas"));
 
         if (!encoder.matches(req.password(), user.getPasswordHash())) {
-            throw new RuntimeException("Credenciales inválidas");
+            throw new RuntimeException("Credenciales invalidas");
         }
 
         String token = jwtService.generate(user.getUsername(), Map.of("role", user.getRole().name()));
