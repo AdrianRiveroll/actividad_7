@@ -33,5 +33,6 @@ public class ApiAuthController {
 
         String token = jwtService.generate(user.getUsername(), Map.of("role", user.getRole().name()));
         return new AuthDtos.LoginResponse(token);
+        
     }
 }
